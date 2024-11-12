@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+}
+.text ul{ 
+    display: flex;
+    list-style: none;
+}
+.text ul li{
+    float: left;
+    padding: 0 30px;
+    color: #18A0FB;
+}
+.text ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.item{
+    display: flex;
+}
+.text1{
+    background-color: #439A97;
+    width: 1470px;
+    height: 100px;
+}
+.i1{
+    margin-left: 70px;
+    border: solid 1px; 
+    padding: 30px;
+}
+.spham{
+    margin-top: 160px;
+}
+.menu{
+    margin-left: 200px;
+}
+.search{
+    margin-left: 80px;
+}
+input{
+    border: solid 2px red;
+    border-radius: 5px/5px;
+}
+button{
+    border: solid 2px red;
+    border-radius: 5px/5px;
+}
+.them{
+    border: solid 1px ;
+    width: 300px;
+    height: px;
+    border-radius: 5px/5px;
+    text-align: center;
+    padding: 20px;
+}
+.mua{
+    border: solid 1px ;
+    width: 200px;
+    height: px;
+    border-radius: 5px/5px;
+    text-align: center;
+    padding: 20px;
+    background-color: #62B6B7;
+}
+.xemthem {
+    align-self: center;
+    margin-top: 50px;
+    border: solid 3px ;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    color: aliceblue;
+    background-color: red;
+    align-items: center;
+}
+.xemthem label {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.footer{
+    background-color: #439A97;
+    width: 1470px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px; 
+}
+.footer h2 {
+    margin-left: 200px;
+    color: aliceblue;
+}
+.footer h2 strong {
+    color: red;
+}
+.btn-sb {
+    font-size: 30px;
+    margin-left: 500px;
+    padding: 50px 150px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(247, 237, 237);
+    background: rgb(238, 135, 135);
+    margin-top: 50px;
+    border: 2px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
